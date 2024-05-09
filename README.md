@@ -51,7 +51,7 @@ O projeto inclui testes simples que podem ser executados para validar as funcion
 
 Uma coleção do Postman foi exportada e está disponível para facilitar os testes dos endpoints. Esta na raiz do projeto
 
-``wishlist\LuizaLabsCollection.postman_collection.json``
+[``(https://github.com/micaelparadox/wishlist-luizalabs/blob/main/LuizaLabsCollection.postman_collection.json)``](https://github.com/micaelparadox/wishlist-luizalabs/blob/main/LuizaLabsCollection.postman_collection.json)
 
 ## Suporte
 
