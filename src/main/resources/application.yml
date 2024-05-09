@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: wishlist
+  data:
+    mongodb:
+    
+     #uri: mongodb://127.0.0.1:27018/wishlistdb # < - DOCKER URL.
+     uri: mongodb://127.0.0.1:27017/wishlistdb # < - LOCAL URL.
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: ERROR
+    '[org.springframework.boot]': INFO
+    '[org.springframework.data.mongodb]': DEBUG
+    '[org.springframework.data.mongodb.core.MongoTemplate]': DEBUG
+
+debug: true

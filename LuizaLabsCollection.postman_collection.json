@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "b2f98375-0f9a-4fc7-ac50-5e13f50b4d58",
+		"name": "LuizaLabsCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12311258"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/wishlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/wishlist/f230c10f-0b01-4dc9-b79c-5f6267324c6c"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/wishlist Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/wishlist/f230c10f-0b01-4dc9-b79c-5f6267324c6c"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/wishlist Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Produto Dummy blablabal\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/wishlist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/wishlist Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/wishlist"
+			},
+			"response": []
+		}
+	]
+}

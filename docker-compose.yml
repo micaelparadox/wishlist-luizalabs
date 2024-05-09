@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    command: ["mongod", "--quiet"]
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongodb-data:/data/db
+
+  wishlist-app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/wishlist
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb-data:
