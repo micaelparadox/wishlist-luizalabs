@@ -41,7 +41,7 @@ Esta interface facilita a visualização e interação com os endpoints da API, 
 
 ## Funcionalidades do Commander
 
-O sistema inclui um `Commander` que inicializa com 19 produtos na lista de desejos. Caso a lista exceda 20 itens, uma exceção de runtime será lançada informando que a lista está cheia, cobrindo assim os requisitos de limite para a lista de desejos.
+O sistema inclui um `Commander` que inicializa com 19 produtos PROPOSITALMENTE na lista de desejos. Caso a lista exceda 20 itens, uma exceção de runtime será lançada informando que a lista está cheia, cobrindo assim os requisitos de limite para a lista de desejos.
 
 ## Testes
 
