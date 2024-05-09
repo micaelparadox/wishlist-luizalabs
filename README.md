@@ -1,4 +1,4 @@
-# Wishlist LuizaLabs
+# Wishlist
 
 Este projeto é uma implementação de uma API para gerenciamento de listas de desejos (wishlist). Foi desenvolvido com Spring Boot e MongoDB, oferecendo uma interface via Swagger para fácil visualização e interação com os endpoints da API.
 
