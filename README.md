@@ -18,7 +18,7 @@ Se preferir utilizar Docker, o projeto inclui um `docker-compose.yml` configurad
 1. Para subir o projeto utilizando Docker, certifique-se de que o Docker está instalado corretamente e execute na raiz do projeto:
 
    
-   ``docker-compose up --build``
+   ```docker-compose up --build```
    
 2. O Dockerfile vai criar toda a infra necessaria, e você não deve ter nenhum problema!
 
@@ -56,4 +56,3 @@ Uma coleção do Postman foi exportada e está disponível para facilitar os tes
 ## Suporte
 
 Em caso de dúvidas, por favor, entre em contato pelo e-mail: micaelparadox@gmail.com
-```
