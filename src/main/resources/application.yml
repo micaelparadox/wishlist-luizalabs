@@ -4,8 +4,8 @@ spring:
   data:
     mongodb:
     
-     #uri: mongodb://127.0.0.1:27018/wishlistdb # < - DOCKER URL.
-     uri: mongodb://127.0.0.1:27017/wishlistdb # < - LOCAL URL.
+     uri: mongodb://127.0.0.1:27018/wishlistdb # < - DOCKER URL.
+     #uri: mongodb://127.0.0.1:27017/wishlistdb # < - LOCAL URL.
 
 server:
   port: 8080
